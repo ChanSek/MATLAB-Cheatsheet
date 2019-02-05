@@ -48,3 +48,34 @@ Result - 2
          8
          10
 ```
+## Matrix Access
+### Single Element Access
+#### Access element from 3rd row and 5th column
+```
+Syntax - x = A(3, 5)
+```
+#### Access element from last row and 3rd column
+```
+Syntax - x = A(end, 3)
+```
+#### Access element from previous to last row and 3rd column
+```
+Syntax - x = A(end - 1, 3)
+```
+### Multiple Elements Access
+#### Access all elements from 2nd column
+```
+Syntax - x = A(:, 2)
+```
+#### Access all elements from 3rd row
+```
+Syntax - x = A(3, :)
+```
+#### Access 2nd to 5th rows
+```
+Syntax - x = A(2:5, :)
+```
+#### Access last two columns
+```
+Syntax - x = A(:, end - 1:end)
+```
